@@ -22,7 +22,7 @@ This project focuses on detecting fraudulent credit card transactions using a ma
 ```
 Credit-Card-Fraud-Detection/
 │
-├── credit_card_fraud_detection_xgboost.ipynb   # Main Jupyter notebook
+├── credit_card_fraud_detection_xgboost.ipynb   # Main Colab notebook
 ├── EDA_Results/                                # Folder containing EDA result plots
 │   ├── fraud_rate.png
 │   ├── transaction_amount_distribution.png
@@ -39,37 +39,35 @@ Credit-Card-Fraud-Detection/
 
 ---
 
-## Steps to Run the Project
+## Steps to Run the Project in Google Colab
 
-### 1. Clone the Repository
+### 1. Open the Colab Notebook
 
-```bash
-git clone https://github.com/RealSahilp7676/Credit-Card-Fraud-Detection.git
-cd Credit-Card-Fraud-Detection
-```
+- Download or copy the notebook credit_card_fraud_detection_xgboost_colab.ipynb to your Google Drive.
+- Open it with [Google Colab](https://colab.research.google.com/).
 
 ### 2. Install Dependencies
 
-Ensure the following Python packages are installed:
+At the top of the Colab notebook, run the following cell to install required packages:
 
 ```bash
 pip install pandas matplotlib seaborn scikit-learn xgboost
 ```
 
-### 3. Add the Dataset
+### 3. Upload the Dataset
 
-Download the dataset files and place them in the root directory:
+- Download the dataset files and place them in the root directory:
+  - `fraudTrain.csv`
+  - `fraudTest.csv`
+- In Colab, use the file upload widget to upload both files:
+  ```bash
+  from google.colab import files
+  uploaded = files.upload()
+  ```
+  
+### 4. Run the Notebook
 
-- `fraudTrain.csv`
-- `fraudTest.csv`
-
-### 4. Run the Jupyter Notebook
-
-Launch and run the notebook:
-
-```bash
-jupyter notebook credit_card_fraud_detection_xgboost.ipynb
-```
+Execute all cells in order to perform EDA, preprocessing, model training, and evaluation.
 
 ---
 
