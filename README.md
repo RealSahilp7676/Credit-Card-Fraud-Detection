@@ -22,7 +22,7 @@ This project focuses on detecting fraudulent credit card transactions using a ma
 ```
 Credit-Card-Fraud-Detection/
 │
-├── credit_card_fraud_detection_xgboost.ipynb   # Main Colab notebook
+├── credit_card_fraud_detection_xgboost.ipynb   # Main Jupyter notebook
 ├── EDA_Results/                                # Folder containing EDA result plots
 │   ├── fraud_rate.png
 │   ├── transaction_amount_distribution.png
@@ -63,7 +63,7 @@ Download the dataset files and place them in the root directory:
 - `fraudTrain.csv`
 - `fraudTest.csv`
 
-### 4. Run the Colab Notebook
+### 4. Run the Jupyter Notebook
 
 Launch and run the notebook:
 
