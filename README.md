@@ -26,7 +26,6 @@ Credit-Card-Fraud-Detection/
 ├── EDA_Results/                                # Folder containing EDA result plots
 │   ├── fraud_rate.png
 │   ├── transaction_amount_distribution.png
-│
 ├── output/                                     # Model evaluation visualizations
 │   ├── precision_recall_curve.png
 │   ├── roc_curve.png
